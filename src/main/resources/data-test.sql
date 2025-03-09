@@ -1,3 +1,4 @@
+/*
 -- Inserts para la tabla Usuarios
 INSERT INTO usuarios (id_usuario, nombre_de_usuario,correo, password, role, fecha_de_creacion) VALUES
                                                                                                     (1, 'admin', 'password123', 'admin@example.com', 'ADMIN', '2023-01-01 10:00:00'),
@@ -28,4 +29,4 @@ INSERT INTO detalle_alquiler (id_detalle_alquiler, alquiler_id, producto_id, can
                                                                                                                          (1, 1, 1, 10, 10.00, 5, (10 * 10.00) * 5),
                                                                                                                          (2, 2, 2, 5, 10.00, 3, (5 * 10.00) * 3),
                                                                                                                          (3, 3, 3, 20, 10.00, 7, (20 * 10.00) * 7);
-
+/*
